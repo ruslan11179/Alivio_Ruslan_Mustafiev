@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header */
+
+
+.header{
+    padding: 17px 0;
+ }
+ .container{
+    max-width: 1400px;
+    margin: 0 auto;
+ }
+ .header__wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+.header__menu{
+    display: flex;
+
+}
+.header__link{
+    color:#292929;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+.header__item{
+    margin-right: 70px;
+}
+.btn{
+    color:#fff;
+    font-weight: 400;
+    font-size: 29px;
+    background-color: #01996D;
+    padding: 20px 50px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lato';
+}
+.btn__white{
+    color: #000;
+    background-color: #fff;
+    font-family: 'Lato';
+}
+
+
+/* Main */
+
+
+.main{
+    background: url("../img/BG.jpg") no-repeat center center / cover;
+    height: 90vh;
+}
+
+.main__info{
+    padding-top: 175px;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.main__text{
+    color: #484848;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 55px;
+    font-family: 'Lato';
+}
+
+
+/* Steps */
+
+
+.steps{
+    padding: 169px 0 255px 0;
+}
+.steps__sub{
+    color: #424242;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.steps__title{
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+.steps__text{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 670px;
+    margin-bottom: 60px;
+    font-family: 'Lato';
+}
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+.steps__card-title{
+    color: #000;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+.steps__acard{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+}
+.steps__pic img{
+    border-radius: 12px;
+}
+
+
+/* title video */
+
+
+.text__first{
+    font-weight: 700;
+    font-size: 50px;
+    width: 520px;
+    margin-top: 565px;
+    margin-top: 310px;
+    color:white;
+}
+.text__video{
+    margin-left: 207px;
+}
+.text__second{
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 33px;
+    color: #fff;
+}
+.title__video_btn{
+    color:#fff;
+    font-weight: 400;
+    font-size: 29px;
+    background-color: #01996D;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lato';
+    padding: 20px 50px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 57px;
+}
+.video{
+    margin-left:101px;
+    margin-top: 229px;
+}
+.title__video{
+    display: flex;
+    justify-content: baseline;
+    
+    background-color: #245852;
+    height: 922px;
+    margin-top: 255px;
+}
+
+/* guide alivio */
+
+.custom__contents{
+    position: relative;
+    left: 255px;
+    top: 210px;
+    z-index: 2;
+}
+.text__product{
+    margin-left: 87px;
+}
+.text__product_1{
+    color: #424242;
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+}
+.text__product_2{
+    color: #01996D;
+    font-size: 50px;
+    font-weight: 700;
+    width: 560px;
+    margin-top: 10px;
+}
+.text__product_3{
+    color: #484848;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    width: 520px;
+    margin-top: 20px;
+}
+.btn__2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 29px;
+    padding: 20px 50px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lato';
+    background-color: #01996D;
+    margin-top: 40px;
+}
+.guide__alivio{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 120px;
+}
+.footer__info{
+    margin-top: 60px;
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.Alivio__footer{
+    padding: 95px 0;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer{
+    background-color: #245852;
+    margin-top: 243px;
+    height: 654px;
+    padding: 0 275px;
+}
